@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #151320;
+}
+
+.card-img img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 40px;
+  justify-content: space-around;
+  margin:20px;
+ 
+  
+}
+.card-body {
+    background-color: #1c1b29;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #555453;
+  padding: 20px;
+  
+}
+.card-body:hover{
+box-shadow:0 0 30px #ffffff;
+}
+.info {
+    padding: 20px 10px;
+}
+
+.info h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.info p {
+  color: #82898a;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.info span {
+  color: #c0e41f;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+/* 
+navbar styling */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+nav li {
+  list-style: none;
+  padding:20px 10px 20px 10px;
+  cursor: pointer;
+  
+}
+
+.btn-style{
+  padding: 10px;
+  margin:20px 5px ;
+  width: 80px;
+  border-radius:20px ;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+.btn-style:hover{
+color: white;
+background-color: rgb(138, 58, 58);
+
+
+
+}
